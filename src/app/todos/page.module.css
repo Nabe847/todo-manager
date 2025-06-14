@@ -24,7 +24,6 @@
   align-items: center;
   gap: 0 0.6em;
   position: relative;
-  margin-bottom: 0.6em;
   padding: 0.5em 0.7em;
   border: 1px solid #2589d0;
   border-radius: 3px;
@@ -59,4 +58,44 @@
 
 .checkbox input {
   display: none;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0051a2;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todoItem {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  width: 100%;
 }
